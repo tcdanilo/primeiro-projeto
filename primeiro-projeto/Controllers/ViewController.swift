@@ -19,7 +19,7 @@ class ViewController: UIViewController {
                 let refeicao = Refeicao(nome: nome, felicidade: felicidade)
                 print(" Comi \(refeicao.nome) e fiquei com felicidade \(refeicao.felicidade)")
         } else {
-            print("erro ao criar a refeicao!")
+            print("erro ao criar a refeicao!!!")
         }
             }
             
