@@ -12,9 +12,10 @@ class Refeicao: NSObject {
     var felicidade:Int
     var itens:Array<Item> = []
     
-    init (nome:String,felicidade:Int) {
+    init (nome:String,felicidade:Int,itens: [Item] = [] ) {
         self.nome = nome
         self.felicidade = felicidade
+        self.itens = itens
         
         
     }

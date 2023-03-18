@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		9F1382A729BF87D60054168B /* Refeicao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1382A629BF87D60054168B /* Refeicao.swift */; };
 		9F1382A929BF88560054168B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1382A829BF88560054168B /* Item.swift */; };
+		9FD0123F29C5077A002AEFB9 /* AdicionarItensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD0123D29C5077A002AEFB9 /* AdicionarItensViewController.swift */; };
+		9FD0124029C5077A002AEFB9 /* AdicionarItensViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FD0123E29C5077A002AEFB9 /* AdicionarItensViewController.xib */; };
+		9FD8D78029C3756D00C776E7 /* RefeicoesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD8D77F29C3756D00C776E7 /* RefeicoesTableViewController.swift */; };
 		9FFD0D0329B1570E0046F279 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFD0D0229B1570E0046F279 /* AppDelegate.swift */; };
 		9FFD0D0529B1570E0046F279 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFD0D0429B1570E0046F279 /* SceneDelegate.swift */; };
 		9FFD0D0729B1570E0046F279 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFD0D0629B1570E0046F279 /* ViewController.swift */; };
@@ -21,6 +24,9 @@
 		9F1382A629BF87D60054168B /* Refeicao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refeicao.swift; sourceTree = "<group>"; };
 		9F1382A829BF88560054168B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		9F57804329B9211500066F74 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9FD0123D29C5077A002AEFB9 /* AdicionarItensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdicionarItensViewController.swift; sourceTree = "<group>"; };
+		9FD0123E29C5077A002AEFB9 /* AdicionarItensViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdicionarItensViewController.xib; sourceTree = "<group>"; };
+		9FD8D77F29C3756D00C776E7 /* RefeicoesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefeicoesTableViewController.swift; sourceTree = "<group>"; };
 		9FFD0CFF29B1570E0046F279 /* primeiro-projeto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "primeiro-projeto.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FFD0D0229B1570E0046F279 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FFD0D0429B1570E0046F279 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,7 +60,9 @@
 		9F1382AB29BF892D0054168B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				9FD0123D29C5077A002AEFB9 /* AdicionarItensViewController.swift */,
 				9FFD0D0629B1570E0046F279 /* ViewController.swift */,
+				9FD8D77F29C3756D00C776E7 /* RefeicoesTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -63,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				9FFD0D0829B1570E0046F279 /* Main.storyboard */,
+				9FD0123E29C5077A002AEFB9 /* AdicionarItensViewController.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -86,9 +95,9 @@
 		9FFD0D0129B1570E0046F279 /* primeiro-projeto */ = {
 			isa = PBXGroup;
 			children = (
-				9F1382AB29BF892D0054168B /* Controllers */,
-				9F1382AC29BF894F0054168B /* Views */,
 				9F1382AA29BF890B0054168B /* Models */,
+				9F1382AC29BF894F0054168B /* Views */,
+				9F1382AB29BF892D0054168B /* Controllers */,
 				9FFD0D0229B1570E0046F279 /* AppDelegate.swift */,
 				9FFD0D0429B1570E0046F279 /* SceneDelegate.swift */,
 				9FFD0D0B29B1570E0046F279 /* Assets.xcassets */,
@@ -159,6 +168,7 @@
 			files = (
 				9FFD0D0F29B1570E0046F279 /* LaunchScreen.storyboard in Resources */,
 				9FFD0D0C29B1570E0046F279 /* Assets.xcassets in Resources */,
+				9FD0124029C5077A002AEFB9 /* AdicionarItensViewController.xib in Resources */,
 				9FFD0D0A29B1570E0046F279 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -172,7 +182,9 @@
 			files = (
 				9F1382A929BF88560054168B /* Item.swift in Sources */,
 				9FFD0D0729B1570E0046F279 /* ViewController.swift in Sources */,
+				9FD0123F29C5077A002AEFB9 /* AdicionarItensViewController.swift in Sources */,
 				9FFD0D0329B1570E0046F279 /* AppDelegate.swift in Sources */,
+				9FD8D78029C3756D00C776E7 /* RefeicoesTableViewController.swift in Sources */,
 				9FFD0D0529B1570E0046F279 /* SceneDelegate.swift in Sources */,
 				9F1382A729BF87D60054168B /* Refeicao.swift in Sources */,
 			);
